@@ -21,3 +21,23 @@ múltiplas linhas
 -> coloque nomes que todos conhecem e que sejam mais fáceis de intender o código
 -> Código limpo
 -> Comente tudo que sentir necessidade de comentar (No Curso)
+Aulta 15 - Básico de Var, Let e Const
+estrutura de dados -> lista, inteiro, arrey
+	-> Regras pra dizer como um dado é organizado
+algoritmo
+	-> sentenças de códigos
+	-> Manipula os dados
+como criar variáveis e constantes:
+
+Variável -> 	var (nome) 	=		(valor)
+			   (atribuição) 
+		let (nome)	=		(valor)
+			   (atribuição) 
+com o let, uma variável com o mesmo nome não pode ser redeclarado
+constante ->	const (nome)	=		(valor)
+			   (atribuição)
+não pode atribuir um novo valor
+
+quanto mais constantes tiver um programa, melhor será para manter ele
+tudo aquilo que eunão tenho um motivo para mudar dentro do algoritmo coloque ele como constante
+paradigma funcional-> utiliza muito constantes
