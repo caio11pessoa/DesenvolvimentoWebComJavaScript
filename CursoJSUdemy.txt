@@ -1,0 +1,23 @@
+Aula 12 - Organização básica de um Código JS
+sentenças de código, podem ou não terminar com ponto e vírgula
+Blocos (símbolo das chaves) { }
+dentro de blocos podem ter conjuntos de sentenças
+// comentários
+-> A própria IDE formata o documento Shift-alt-f
+Aula 13 - Executando JavaScript
+repl.it -> site para executar programas de várias linguagens diferentes (muito bom)
+https://jsfiddle.net -> site para executar programas em JS
+	->muito bacana, vale a pena verificar
+no próprio f12 de uma página web
+nessa página em questão, todas as bibliotecas instaladas nelas poderão ser utilizadas
+Aula 14 - Comentários de Código
+// Comentário de uma linha
+/*
+comentários de 
+múltiplas linhas
+*/
+-> não necessita colocar comentários irrelevantes, não acrescentem nada no código
+-> colocar comentários relevantes para o códigos
+-> coloque nomes que todos conhecem e que sejam mais fáceis de intender o código
+-> Código limpo
+-> Comente tudo que sentir necessidade de comentar (No Curso)
