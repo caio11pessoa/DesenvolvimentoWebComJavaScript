@@ -41,3 +41,5 @@ não pode atribuir um novo valor
 quanto mais constantes tiver um programa, melhor será para manter ele
 tudo aquilo que eunão tenho um motivo para mudar dentro do algoritmo coloque ele como constante
 paradigma funcional-> utiliza muito constantes
+
+AULA 16 - Tipagem fraca
