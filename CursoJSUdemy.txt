@@ -43,3 +43,129 @@ tudo aquilo que eunão tenho um motivo para mudar dentro do algoritmo coloque ele
 paradigma funcional-> utiliza muito constantes
 
 AULA 16 - Tipagem fraca
+
+como vai lidar com os tipos de dados
+JS é uma liguagem de tipagem dinâmica
+
+tipagem fraca quer dizer que as variáveis com tipos específicos podem mudar o seu tipo dependendo da situação
+-> situações dificeis de detectar alguns tipos de erros
+fica mais difícil de lidar com alguns bugs por conta da tipagem dinâmica
+
+o fato dela ser de tipagem fraca não quer dizer que ela não possua um tipo, só quer dizer que esse tipo dela pode variar
+
+AULA 17 - Tipos em JavaScrypt:Number
+tipo numérico
+
+const peso1 = 1.0
+const peso2 =  number('2.0')
+
+console.log(Number.isInteger(peso1))
+
+no caso do JavaScrypt, peso1, 1.0, é um inteiro, em outras linguagens como Java, isso não seria verdade
+
+Função toFixed(quantidade de casas decimais que eu quero que seja considerada)
+
+Função toString() -> retorna uma string
+
+toString(2) -> retorna um binário
+
+
+Função Number(o que quer que seja convertido em number)
+
+AULA 18 - Number: Alguns Cuidados
+
+
+7/0 no JavaScrypt retorna o tipo Infinity
+
+"10" / 2 -> Retorna 5, ou seja, o JavaScrypt analiza o conteúdo da string e retorna um number
+console.log(0.1 + 0.7)// da uma loucura
+
+I3E -> segue um padrão de operações imprecisas (exemplo o de cima)
+
+console(10.toString())//nao da pra fazer isso
+
+AULA 19 - Usando Math
+
+exponenciação se utiliza a biblioteca math
+
+const area = Math.PI * Math.pow(raio, 2)
+
+Math é um Object
+
+AULA 20 - Tipos em JavaScript: String
+
+String em JavaScrypt pode ser identificada com 3 símbolos
+"assim", 'assim' ou `assim`
+
+console.log(escola.charAt(4))// vai me dar a letra que está no índice 0
+
+Função charAt(índice)
+
+console.log(escola.charCodeAt(3))//valor a tabela ask
+
+Função charCodeAt(índice)
+
+console.log(escola.indexOf('3'))// testa se tem aquele valor na string e retorna o índice
+
+Função índexOf("Valor")
+
+console.log(escola.substring(1))// Retorna a partir desse índice até o final
+
+Função substring(índice)
+
+console.log(escola.substring(0, 3))// do Índice 0 até o índice 2
+
+Função substring(índiceÍnicio, ÍndiceFinalNãoIncluído)
+
+console.log('Escola '.concat(escola).concat("!")) //contatenando valores literais
+
+Funcão concat(String a ser concatenada ou adicionada)
+
+console.log(escola.replace(3, 'e'))
+
+Função replace( valor que deseja ser substituido, valor que vai substituir )
+
+console.log('Ana,Maria,Pedro'.split(','))// transformada em Array
+console.log('Ana,Maria,Pedro'.split(/,/))// transformada em Array usando reject
+
+função split(condição de separação da array)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
