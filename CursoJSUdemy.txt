@@ -121,6 +121,8 @@ console.log('Escola '.concat(escola).concat("!")) //contatenando valores literai
 
 Funcão concat(String a ser concatenada ou adicionada)
 
+também pode ser usado o +, no contexto de número ele vai somar e no contexto de strig ele vai concatenar
+
 console.log(escola.replace(3, 'e'))
 
 Função replace( valor que deseja ser substituido, valor que vai substituir )
@@ -129,6 +131,8 @@ console.log('Ana,Maria,Pedro'.split(','))// transformada em Array
 console.log('Ana,Maria,Pedro'.split(/,/))// transformada em Array usando reject
 
 função split(condição de separação da array)
+
+
 
 
 
