@@ -132,13 +132,57 @@ console.log('Ana,Maria,Pedro'.split(/,/))// transformada em Array usando reject
 
 função split(condição de separação da array)
 
+AULA 21- Usando Template Strings
+
+os templates se abrem com o símbolo da crase ` e podem ser 
+separados com enters
+e considera os espaços
+
+console.log(`1 + 1 = ${1 + 1}`)
+// depos do dollar e entre chaves ele vai interpretar
+
+const up = texto => texto.toUpperCase()//criando a função up
+        //parâmetro //retorna texto.toUpperCase()
+console.log(`Ei...${up('cuidado')}!`)
+
+expressões dentro de uma template string ${expressão aqui}
+
+AULA 22 - Tipo em JavaScrypt : Boolean
+
+Java -> Verdadeiros e Falso
+JavaScrypt -> 
+console.log('os verdadeiros...')
+console.log(!!3)
+console.log(!!-1)
+//todos os numeros inteiros exceto o 0 são verdadeiros
+console.log(!!' ')//basta ter um espaço que ja se torna verdadeiro
+console.log(!![])
+console.log(!!{})
+console.log(!!Infinity)
+console.log(!!(isAtivo = true))
+
+console.log('os falsos...')
+console.log(!!0)
+console.log(!!'')
+console.log(!!null)
+
+console.log('pra finalizar...')
+console.log(!!('' || null || 0 || ' '))
+console.log(('' || null || 0 || '' || 123)) vai printar o primeiro verdadeiro
+console.log(!!NaN)
+console.log(!!undefined)
+console.log(!!(isAtivo = false))
+
+let nome = ''
+console.log(nome || 'Desconhecido')
+//ele imprime Desconhecido pois a string nome deu falso, pois não tem nada na string
 
 
-
-
-
-
-
+nome = 'Caio'
+console.log(nome || 'Desconhecido') // caso a primeira não esteja válido, use a segunda opção como informação padrão
+// imprime Caio pois a string nome deu true, e não imprime desconhecido pois só imprime o primeiro true
+! -> not
+!! -> not not que retorna ao mesmo valor
 
 
 
