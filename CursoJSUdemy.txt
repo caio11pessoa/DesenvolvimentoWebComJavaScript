@@ -214,6 +214,96 @@ delete valores [0] // Deleta o elemento desse índice
 
 Dinâmico, cresce e diminuit, indexada, heterogêneo
 
+AULA 24 - Tipos em JavaScript: Object
+
+Json - JavaScript Object Notation
+objeto != Json
+Json -> formato textual
+
+como criar objetos de forma literal?
+
+{} -> representa um objeto
+[] -> representa uma lista/array
+
+objeto em JS é uma coleção de chave e valores
+
+um objeto pode ter outro objeto dentro dele
+
+voce pode declarar atributos em JS de forma dinâmica
+
+const prod1 = {}
+prod1.nome = 'Celular Ultra Mega'//esse nome foi criado dinamicamente dentro desse objeto
+prod1.preco = 4998.90
+prod1['Desconto Legal'] = 0.40//Evitar atributos com espaço
+
+const prod2 = {
+    nome: 'Camisa Polo'
+    preco: 79.90
+}
+
+Transformando em Json
+'{ "nome": "Camisa Polo", "preco": 79.90 }'
+
+json validator -> https://jsonlint.com/
+
+json é um formato textual e objetos é uma coleção de chave e valor
+
+AULA 25 - Entendendo o Null & Undefined
+
+Atribuição por valor e Atribuição por referência
+
+const a = {name: 'teste'}
+const b = a -> o que de fato a variavel a armazena
+
+o que a const a tem é um endereço no qual o objeto está localizado
+quando se faz b = a -> b recebe o mesmo endereço no qual a aponta
+
+ou seja b e a estão apontando para o mesmo endereçona memória
+
+se mudar a, muda b, se mudar b, muda a
+
+Atribuição pr referência :)
+
+a = 3 //Não posso pois o a é uma constante
+
+let c = 3// 3 é primitivo
+let d = c
+
+d++
+se mudar d, não muda o c, se mudar c, não muda d
+Atribuição por valor
+quando se trabalha com tipos primitivos se faz uma cópia do valor
+
+referência -> Objetos, funções
+Valor -> Tipos primitivos
+
+is not defined != Undefined
+
+se você tem uma variável que aponta para um objeto e quer que ele não aponte mais para ninguém, você atribui nela o valor null
+
+zerar variável do tipo referência = null
+
+cuidado com variáveis que potencialmente podem estar nulas, sempre ter um valor padrão
+
+AULA 26 - Quase tudo é função!!!
+
+Função exerce papel central na linguagem
+
+Object em JS é uma função!
+Class em JS é uma função!
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
