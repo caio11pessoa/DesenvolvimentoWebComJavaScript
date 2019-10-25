@@ -392,10 +392,13 @@ console.log('fora =', numero)
 nesse caso o var foi declarado duas vezes para a mesma variável sem nenhum problema
 logo nesse caso o número 2 é impresso duas vezes
 
+AULA 31 - Declaração de Variáveis com Let
 
+o Let tem um escopo por blocos
 
+Variáveis definidas com a palavra reservada var tem escopo global e função
 
-
+Variáveis definidas com a palavra reservada let tem escopo global, função e de blocos.//isso faz toda diferença
 
 
 
