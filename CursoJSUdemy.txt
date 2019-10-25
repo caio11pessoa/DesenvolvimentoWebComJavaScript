@@ -358,6 +358,65 @@ console.log(subtracao(5, 2))
 const imprimir2 = a => console.log(a)// em caso de apênas um parâmetro, não precisa colocar o 'a' entre parenteses
 imprimir2('Legal!!!')
 
+AULA 29 - Declaração de variáveis com var #01
+
+com a variável var fuca visível mesmo sendo declarada dentro de blocos diferentes, não sendo uma função
+
+em outras linguagens, a variável seria visível apenas dentro desse bloco
+
+funtion Teste(){
+    var local = 123
+}
+teste ()
+console.log(local)
+
+no caso acima dará um erro, pois quando se define uma variável dentro de uma função, o escopo dessa variável é apenas dentro da função
+
+quando se cria uma variável fora de uma função essa variável é global, ela está disponível dentro do objeto window
+
+por que deve fugir do escopo global?
+-> por que quando você cria uma variável e ela vai pro escopo global
+qualquer sobreescrita dessa variável pode gerar um problema muito sério
+
+var só tem dois escopos possíveis, ou global ou no escopo de função
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
