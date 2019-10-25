@@ -400,12 +400,16 @@ Variáveis definidas com a palavra reservada var tem escopo global e função
 
 Variáveis definidas com a palavra reservada let tem escopo global, função e de blocos.//isso faz toda diferença
 
+AULA 32 - Usando Var em Loop #01
 
+usando for como looping, demonstrando o problema de variável global
 
+for(var i = 0; i< 10; i++){
+    console.log(i)
+}
+console.log('i = ', i)
 
-
-
-
+ele imprime o i, mesmo ele tendo sido declarado no for, e o i tem o valor que fez parar a condição
 
 
 
