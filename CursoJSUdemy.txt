@@ -292,6 +292,7 @@ Função exerce papel central na linguagem
 Object em JS é uma função!
 Class em JS é uma função!
 
+AULA 27 - Exemplos Básicos de Funções #01
 
 
 
