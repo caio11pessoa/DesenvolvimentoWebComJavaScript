@@ -294,13 +294,39 @@ Class em JS é uma função!
 
 AULA 27 - Exemplos Básicos de Funções #01
 
+Nenhum momento você deixa explicito que uma função retorna alguma coisa
 
+função é uma receita de bolo
+-> verbo, ação, ela executa um processo baseado na sentença de código
+-> define um bloco {}
 
+função recebe os dados de entrada, parâmetros de entrada
+dentro da função será executado todo passo a passo
 
+no final retorna algum valor
 
+uma função pode não receber nenhum parâmetro ou pode não retornar nada, pode receber e retornar, ou não recebe e nao retorna tudo é possível
 
+// Funcao sem retorno
+function imprimirSoma(a, b){
+    console.log(a + b)
+}
 
+imprimirSoma(2, 3)
+imprimirSoma(2)// pode passar só um valor, o segundo valor será undefined, o resultado será um NaN
+imprimirSoma(2, 10, 4, 5, 6, 7, 8)// pode passar mais de dois valores, a função vai considerar apenas os dois primeiros e vai ignorar o resto
+imprimirSoma()// pode não colocar nenhum parâmetro, retorna um NaN
 
+// Funcao com retorno
+function soma(a, b = 0){
+    return a + b
+}
+
+console.log(soma(2,3))
+console.log(soma(2))
+
+no JavaScript você pode colocar um valor padrão de parâmetro caso a função nao receba nada no lugar
+ex: function soma(a, b = 0){} nesse caso, 0 será o valor padrão para b
 
 
 
