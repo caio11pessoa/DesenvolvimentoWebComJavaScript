@@ -328,14 +328,35 @@ console.log(soma(2))
 no JavaScript você pode colocar um valor padrão de parâmetro caso a função nao receba nada no lugar
 ex: function soma(a, b = 0){} nesse caso, 0 será o valor padrão para b
 
+AULA 28 - Exemplos Básicos de Funções #02
 
+Função anônima, Função sem nome
 
+uma constante pode receber uma função, você pode armazenar uma função em uma variável
+// Armazenando uma funcao em uma variavel
+const imprimirSoma = function (a, b){
+    console.log(a+b)
+}
 
+imprimirSoma(2, 3)
 
+maneiras mais reduzidas
+a seta (=>) substitui o nome function
+// Armazenando uma funcao arrow em uma variavel
+const soma = (a, b) => {
+    return a + b
+}
 
+console.log(soma(2, 3))
 
+mais reduzida ainda, quando tem só uma linha de código
 
+// retorno implícito
+const subtracao = (a, b) => a - b//uma única linha, uma única sentença de código, o resultado dessa sentença de código é retornado
+console.log(subtracao(5, 2))
 
+const imprimir2 = a => console.log(a)// em caso de apênas um parâmetro, não precisa colocar o 'a' entre parenteses
+imprimir2('Legal!!!')
 
 
 
