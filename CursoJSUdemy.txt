@@ -496,9 +496,42 @@ AULA 38 - Par Nome/Valor
 contexto léxico -> se variáveis de mesmo nome estiverem em contextos léxicos diferentes, elas não vão gerar conflito
 contexto léxico -> onde a variável foi definida
 
+AULA 39 - Notação Ponto
 
+acessar membros de uma função ou objetos através da notação do ponto
 
+console.log(Math.ceil(6.1))
 
+const obj1 = {}
+obj1.nome = 'Bola'
+//obj1['nome'] = 'bola2'
+console.log(obj1.nome)
+
+function Obj(nome) {
+    this.nome = nome
+    this.exec = function () {
+        console.log('Exec...')
+    }
+}
+
+const obj2 = new Obj('Cadeira')
+const obj3 = new Obj('Mesa')
+console.log(obj2.nome, obj3.nome)
+obj3.exec()
+
+const obj2 = new Obj('Cadeira')
+const obj3 = new Obj('Mesa')
+console.log(obj2.nome, obj3.nome)
+obj3.exec()
+
+- Representa um atributo dessa função Obj
+this.nome = nome
+
+- Representa um método, outra função dentro da função Obj
+this.exec = function () {
+        console.log('Exec...')
+    }
+}
 
 
 
