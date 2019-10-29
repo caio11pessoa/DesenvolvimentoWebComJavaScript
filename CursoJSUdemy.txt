@@ -422,8 +422,20 @@ console.log('i = ', i)
 nessa situação como o i foi declarado com let dentro do escopo do loopint
 ela nao se torna visível fora do looping, gerando um erro
 
+AULA 34 - Usando Var em Loop #02
+Var não tem escopo de função
 
+const funcs = []
 
+for (var i = 0; i < 10; i++){
+    funcs.push(function(){
+        console.log (i)
+    })
+}
+
+funcs[2]()
+funcs[8]()
+// vai printar somente 10
 
 
 
