@@ -451,19 +451,30 @@ for (let i = 0; i < 10; i++){
 funcs[2]()
 funcs[8]()
 
+AULA 36 - Entendendo o Hoisting
 
+hoisting -> Issar, jogar pra cima
 
+console.log('a =', a)// undefined
+var a = 2
+console.log('a =', a)// 2
 
+nesse caso não vai gerar um erro, pois usando a variável var, ele joga essa definição de variável para o começo do código
 
+a = 10
+console.log('a =', a)// 10
+var a = 2
+console.log('a =', a)// 2
 
+esse efeito é chamado de hoisting
 
+//Somente por curiosidade
 
+o Hoisting não acontece com o Let
 
-
-
-
-
-
+//console.log('b =', b)//Vai gerar um erro
+//let b = 10
+//console.log('b =', b)
 
 
 
