@@ -437,6 +437,28 @@ funcs[2]()
 funcs[8]()
 // vai printar somente 10
 
+AULA 35 - Usando Let em Loop #02
+
+como Let tem escopo para função e loop, nesse exemplo vai printar 2 e 8
+const funcs = []
+
+for (let i = 0; i < 10; i++){
+    funcs.push(function(){
+        console.log (i)
+    })
+}
+
+funcs[2]()
+funcs[8]()
+
+
+
+
+
+
+
+
+
 
 
 
