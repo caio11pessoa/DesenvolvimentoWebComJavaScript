@@ -491,8 +491,10 @@ class produto { } // ES 2015 (ES6)
 console.log(typeof produto)
 console.log(typeof new produto())
 
+AULA 38 - Par Nome/Valor
 
-
+contexto léxico -> se variáveis de mesmo nome estiverem em contextos léxicos diferentes, elas não vão gerar conflito
+contexto léxico -> onde a variável foi definida
 
 
 
