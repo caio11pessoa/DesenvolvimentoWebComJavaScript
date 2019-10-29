@@ -476,6 +476,21 @@ o Hoisting não acontece com o Let
 //let b = 10
 //console.log('b =', b)
 
+AULA 37 - Função Vs Objeto
+
+você pode criar instâncias a partir de funções, a partir de classes ou diretamente atrvés de new Object
+
+console.log(typeof Object)
+console.log(typeof new Object())// Criando um objeto através de uma função
+
+const client = function() {}
+console.log(typeof client)//Function
+console.log(typeof new client)//Object
+
+class produto { } // ES 2015 (ES6)
+console.log(typeof produto)
+console.log(typeof new produto())
+
 
 
 
