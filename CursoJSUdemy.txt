@@ -547,6 +547,53 @@ AULA 40 Operadores: Atribuição
 
 %= -> Atribuição por módulo
 
+AULA 41 - Operadores: Destructuring #01
+
+é um operador de desestruturação
+tem duas formas de escrita
+{} -> Objeto
+[] -> Arrey
+
+exemplo
+const { nome, idade} = pessoa
+
+ele retirou do objeto pessoa o nome e a idade
+agora o programa tem mais duas variáveis
+
+outro exemplo
+const { nome: n, idade: i } = pessoa
+
+nesse caso, ele retira nome e idade de pessoa e atribuem a n e i respectivamente.
+
+outra maneira de se usar o operador, colocando um valor padrão
+const{ sobrenome, bemHumorada = true } = pessoa// Por padrão, se não tiver nada nessa variável, ele fica com o valor true
+
+cuidado com os atributos de forma aninhada, exemplo
+const { endereco: {logradouro, numero, cep}}= pessoa
+
+const pessoa = {
+    nome: 'Ana',
+    idade: 5,
+    endereco: {
+        logradouro: 'Rua ABC',
+        numero: 1000
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
