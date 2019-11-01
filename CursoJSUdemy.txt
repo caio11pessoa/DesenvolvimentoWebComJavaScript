@@ -580,20 +580,43 @@ const pessoa = {
     }
 }
 
+AULA 42 - Operadores: Destructuring #02
 
+operador destructuring
+const [a]
 
+ex
+const [a] = [10]
 
+criou o elemento a que recebeu o primeiro elemento da array, que no caso é 10
 
+outro ex
+const[n1, , n3, , n5, n6 = 0] = [10, 7, 9, 8]
 
+n1 recebe o primeiro elemento da string,
+n3 recebe o terceiro elemento
+n5 recebe undefined pois não recebe nenhum elemento da string
+n6 continua 0
 
+exemplo aninhado
+const [, [, nota]] = [[, 8, 8], [9, 6, 8]]
 
+AULA 43 - Operadores: Destructuring #03
 
+Contexto de função
 
+Função que gera um número aleaório entre um min e um max
+function rand({ min = 0, max = 1000 } = {}) {
+    const valor = Math.random() * (max - min) + min
+    return Math.floor(valor)
+}
+const obj = { max: 50, min: 40 }
+console.log(rand({max: 50, min: 40}))
+console.log(rand({min : 955}))
+console.log(rand({}))
+console.log(rand())
 
-
-
-
-
+essa função recebe como parâmetro um objeto
 
 
 
