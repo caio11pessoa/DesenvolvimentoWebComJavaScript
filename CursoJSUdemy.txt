@@ -533,9 +533,19 @@ this.exec = function () {
     }
 }
 
+AULA 40 Operadores: Atribuição
 
+= -> Operador de atribuição
 
++= -> Acrescentando/ Atribuição de adição
 
+-= -> Atribuição de sutração
+
+*= -> Atribuição multiplicativa
+
+/= -> Atribuição por divisão
+
+%= -> Atribuição por módulo
 
 
 
