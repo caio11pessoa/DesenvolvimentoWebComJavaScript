@@ -18,11 +18,11 @@ múltiplas linhas
 */
 -> não necessita colocar comentários irrelevantes, não acrescentem nada no código
 -> colocar comentários relevantes para o códigos
--> coloque nomes que todos conhecem e que sejam mais fáceis de intender o código
+-> coloque nomes que todos conhecem e que sejam mais fáceis de entender o código
 -> Código limpo
 -> Comente tudo que sentir necessidade de comentar (No Curso)
 Aulta 15 - Básico de Var, Let e Const
-estrutura de dados -> lista, inteiro, arrey
+estrutura de dados -> lista, inteiro, array
 	-> Regras pra dizer como um dado é organizado
 algoritmo
 	-> sentenças de códigos
@@ -39,7 +39,7 @@ constante ->	const (nome)	=		(valor)
 não pode atribuir um novo valor
 
 quanto mais constantes tiver um programa, melhor será para manter ele
-tudo aquilo que eunão tenho um motivo para mudar dentro do algoritmo coloque ele como constante
+tudo aquilo que eu não tenho um motivo para mudar dentro do algoritmo coloque ele como constante
 paradigma funcional-> utiliza muito constantes
 
 AULA 16 - Tipagem fraca
