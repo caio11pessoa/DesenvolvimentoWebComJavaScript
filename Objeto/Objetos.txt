@@ -1,0 +1,52 @@
+94. Funções importantes de objeto
+
+(Object.keys(objDesejado)
+
+retorna todas as chaves, menos valores
+
+Object.values(objDesejado)
+
+retorna todos os valores, menos chaves
+
+Object.entries(objDesejado)
+
+retorna um array grande composto por vários arrays internos de chave e valor
+
+Object.assign(dest, o1, o2)
+
+ele adiciona todos os atributos de o1 e o2 em dest
+
+Object.freeze(obj)
+
+congela o objeto e n permite mudar seus atributos
+
+Herança
+
+reúsar códigos
+herança x composição, prioriza composição
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
