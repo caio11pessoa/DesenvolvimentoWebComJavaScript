@@ -27,16 +27,19 @@ herança x composição, prioriza composição
 
 
 
+Object.preventExtensions -> Evita adicionar novos atributos ou métodos no objeto
+
+
+Object.seal -> Evita adicionar ou excluir atributos ou métodos no objeto
+
+Object.freeze
 
 
 
 
-
-
-
-
-
-
+Json x OBJ
+JSON recebe dados, nao recebe métodos
+é texto
 
 
 
