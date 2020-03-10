@@ -1,0 +1,41 @@
+array no JavaScript é um tipo especial de objeto
+não existe array nativo em JS, nao existe um tipo array
+
+é uma estrutura dinâmica, cresce e diminui dinamicamente
+estrutura heterogênia -> recebe todo tipo
+
+boas práticas : dados homogêneos
+
+array.sort() -> altera o array, colocando em ordem
+
+array.splice(elemento de partida, quantidade de elementos a serem deletados a partir do elemento de partida)
+
+array.splice(elemento de partida, quantidade de elementos a serem deletados a partir do elemento de partida, "elemento adicionado" após elemento de partida, "elemento adicionado")
+
+Métodos importantes - 
+
+array.pop() -> retira o ultimo elemento da lista
+array.push(elemento) -> adiciona no final da lista
+array.shift() -> retira o primeiro elemento da lista
+array.unshift(elemento) -> adiciona no início da lista
+
+array.slice(índice do elemento desejado) -> retorna um array a partir do índice do elemento desejado
+array.slice(índice do elemento desejado, índice final que n vai entrar na lista) -> retorna um array a partir do índice do elemento desejado até um elemento antes do índice final
+
+
+simulando array com objeto
+
+foreach - 
+
+array.foreach(function(elemento, índice desse elemento) {
+	...
+})
+
+
+MAP
+
+o map serve para transformar um array em outro
+
+o array original tem o mesmo tamanho do array final
+
+o MAP não transforma o array atual
